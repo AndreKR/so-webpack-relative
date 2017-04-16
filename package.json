@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "license": "MIT",
+  "version": "1.0.0",
+  "dependencies": {
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "url-loader": "^0.5.8",
+    "vue": "^2.2.6",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.3.3"
+  },
+  "scripts": {
+    "dev-build": "npm --silent update && webpack --progress --config webpack.config.js --env.dev"
+  }
+}
